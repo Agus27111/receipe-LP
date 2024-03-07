@@ -1,0 +1,70 @@
+.image-hero {
+  width: 100;
+  background-size: cover;
+  background-position: center;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.main {
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2.2rem;
+  }
+  ul,
+  ol {
+    line-height: 30px;
+  }
+}
+
+.prepTime {
+  background-color: hsl(30, 54%, 90%);
+  padding: 20px;
+  border-radius: 5px;
+  h4 {
+    color: hsl(332, 51%, 32%);
+  }
+
+  span {
+    font-weight: 700;
+  }
+}
+.instructions {
+  ol {
+    line-height: 20px;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  span {
+    font-weight: 700;
+  }
+}
+.nutrients {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  table {
+    line-height: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    td {
+      padding: 0 20px;
+      text-align: left;
+      color: hsl(332, 51%, 32%);
+      border-bottom: 1px solid hsl(30, 54%, 90%);
+      &:last-child {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+      }
+    }
+  }
+}
